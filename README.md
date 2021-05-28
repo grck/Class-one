@@ -31,7 +31,7 @@
 
 #### Spring MVC Framework and REST
 
-* Spring�s annotation-based MVC framework simplifies the process of creating RESTful web services. 
+* Spring"s annotation-based MVC framework simplifies the process of creating RESTful web services. 
 * The key difference between a traditional Spring MVC controller and the RESTful web service controller is the way the HTTP response body is created. While the traditional MVC controller relies on the View technology, the RESTful web service controller simply returns the object and the object data is written directly to the HTTP response as JSON/XML. 
 
 
@@ -188,12 +188,12 @@ the values of the query parameters where as @PathVariable used for accessing the
 PathParam example
 GET http://base-url/students/{roll-number}  OR
 
-@RequestMapping(path = �/base-url/students/{roll-number}�  == @Path(�/base-url/students/{roll-number}�)
+@RequestMapping(path = "/base-url/students/{roll-number}"  == @Path("/base-url/students/{roll-number}")
 
 QueryParam example
 GET http://base-url/students?grade=10    OR
 
-@RequestMapping(path = �/base-url/students/{roll-number}�  == @Path(�/base-url/students/{roll-number}�)
+@RequestMapping(path = "/base-url/students/{roll-number}"  == @Path("/base-url/students/{roll-number}")
 ```
 
 * **When to use @PathParam vs @QueryParam**
