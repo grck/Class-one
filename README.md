@@ -167,18 +167,18 @@ the values of the query parameters where as @PathVariable used for accessing the
 
 **SPRING ANNOTATION**|**JAX-RS ANNOTATION**
 --------------------|------------------
-@RequestMapping(path = �/troopers� | @Path(�/troopers�)
+@RequestMapping(path = "/troopers" | @Path("/troopers")
 @PostMapping	| @POST
 @PutMapping	| @PUT
 @GetMapping	| @GET
 @DeleteMapping	| @DELETE
 @ResponseBody	| N/A
 @RequestBody	| N/A
-@PathVariable(�id�)	| @PathParam(�id�)
-@RequestParam(�xyz�)	| @QueryParam(�xyz�)
-@RequestParam(value=�xyz�)	| @FormParam(�xyz�)
-@RequestMapping(produces = {�application/json�}) | 	@Produces(�application/json�)
-@RequestMapping(consumes = {�application/json�}) |	@Consumes(�application/json�)
+@PathVariable("id")	| @PathParam("id")
+@RequestParam("xyz")	| @QueryParam("xyz")
+@RequestParam(value="xyz")	| @FormParam("xyz")
+@RequestMapping(produces = {"application/json"}) | 	@Produces("application/json")
+@RequestMapping(consumes = {"application/json"}) |	@Consumes("application/json")
 
 #### Diff between PathParam and QueryParam ?
 
